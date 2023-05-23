@@ -1,0 +1,37 @@
+:root{
+    --branco-principal:#03b34c;
+    --cinza-secundario:#06b41d;
+    --botao-azul:#34df11;
+    --cor-de-fundo:#965573;
+}
+:root{
+    --branco-principal:#ce0893;
+    --cinza-secundario:#c0c0c0;
+    --botao-amarelo:#9cd109;
+    --cor-de-fundo:#00030c;
+}
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.livraria{
+    height: 300vh;
+    display: grid;
+    grid-template-columns: 20% 20% ;
+}
+.gato_botao{
+    
+        background-color: var(--botao-azul);
+        border-radius: 16px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+
+}
+.gato_botao_secundario{
+    background-color:#ce0893;
+    border: 5px solid var(--branco-principal)
+
+}
