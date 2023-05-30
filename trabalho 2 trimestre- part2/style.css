@@ -1,0 +1,72 @@
+
+
+:root{
+    --cinza-secundario:#06b41d;
+    --botao-azul:#7fd457;
+    --cor-de-fundo:#965573;
+}
+:root{
+    --branco-principal:#ce0893;
+    --cinza-secundario:#c0c0c0;
+    --botao-amarelo:#7acc66;
+    --cor-de-fundo:#00030c;
+}
+
+body{
+
+    background-color: rgb(212, 112, 212);
+}
+*{
+    margin: 25px;
+    padding: 0%;
+}
+.texto{
+ text-align:center;
+ font-size:medium ;
+
+}
+.principal{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.livraria{
+    height: 300vh;
+    display: grid;
+    grid-template-columns: 20% 20% ;
+}
+.gato_botao{
+    
+        background-color: var(--botao-azul);
+        border-radius: 16px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+
+}
+.gato_botao_secundario{
+    background-color: var(--botao-amarelo);
+ border-radius: 16px;
+ padding: 1em;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+   
+
+}
+.gato_botao_terciario{
+    background-color: var(--botao-amarelo);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+      
+}
+
+#dois{
+
+    width:40% ;
+    
+}
