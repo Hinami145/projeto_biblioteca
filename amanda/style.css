@@ -1,0 +1,123 @@
+:root{
+    --cinza-secundario:#06b41d;
+    --botao-azul:#7fd457;
+    --cor-de-fundo:#965573;
+}
+:root{
+    --branco-principal:#ec1299;
+    --cinza-secundario:#c0c0c0;
+    --botao-amarelo:#87dd72;
+    --cor-de-fundo:#00030c;
+   
+}
+
+body{
+
+    background-color: rgb(231, 107, 159);
+}
+*{
+    margin: 7px;
+    padding: 8px;
+}
+.texto{
+ text-align: center;
+ font-size:large ;
+
+}
+#conta{
+    width: 300%;
+}
+.principal{
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.livraria{
+    height: 300vh;
+    display: grid;
+    grid-template-columns: 20% 20% ;
+}
+.gato_botao{
+    
+        background-color: var(--botao-azul);
+        border-radius: 16px;
+        padding: 1em;
+        color: var(--branco-principal);
+        display: block;
+        text-decoration: none;
+
+}
+#principe{
+
+width:120%;
+
+}
+.gato_botao_secundario{
+    background-color: var(--botao-amarelo);
+ border-radius: 16px;
+ padding: 1em;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+   
+
+}
+#Rei{
+   width: 150%;
+}
+
+.gato_botao_terciario{
+    background-color: var(--botao-amarelo);
+    border-radius: 16px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+}
+
+#dois{
+
+    width:120% ;
+    
+}
+.gato_botao_quarto{
+
+    background-color: var(--botao-amarelo);
+ border-radius: 16px;
+ padding: 1em;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+
+}
+#Anne{
+    width: 160%;
+}
+.gato_botao_quinto{
+
+    background-color: var(--botao-amarelo);
+ border-radius: 16px;
+ padding: 1em;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+}
+#chapeuzinho{
+    width: 120%;
+}
+.gato_botao_sexto{
+    
+    background-color: var(--botao-amarelo);
+ border-radius: 16px;
+ padding: 1em;
+ color: var(--branco-principal);
+ display: block;
+ text-decoration: none;
+}
+#black{
+    width: 190%;
+}
+
+.Youtube_a{
+scroll-padding-top: 5%;
+
+}
